@@ -1,5 +1,7 @@
---made in 2022, thx jude :)
+--made in 2019, thx jude :)
 --BAD BAD BAD
+--i found this on jude bakup srvr so just its not med by me
+--the gui button is not med by me also i only did some change :)
 
 local lighting = game:GetService("Lighting")
 
