@@ -135,8 +135,8 @@ local function button(text, y)
     return b
 end
 
-local b1 = button("normal", 0)
-local b2 = button("fog", 0.5)
+local b1 = button("v1", 0)
+local b2 = button("v2", 0.5)
 
 local function hide()
     frame.Visible = false
