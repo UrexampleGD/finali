@@ -272,7 +272,7 @@ local function fog()
                     end
                 end)
             end
-        eend
+        end
         local gui2 = Instance.new("ScreenGui", game.CoreGui)
         local img = Instance.new("ImageLabel", gui2)
         img.Size = UDim2.new(1,0,1,0)
