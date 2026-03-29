@@ -1,7 +1,9 @@
---// services
+--made in 2022, thx jude :)
+--BAD BAD BAD
+
 local lighting = game:GetService("Lighting")
 
---// sound
+--so like this play song from url but i recreate the url bcuz jude acc was deleted
 local url = "https://raw.githubusercontent.com/UrexampleGD/Final/main/818027.mp3"
 local file = "final.mp3"
 
@@ -27,7 +29,6 @@ local function play()
     return sound
 end
 
---// meshes
 local meshes = false
 
 local function startmeshes()
@@ -82,7 +83,6 @@ local function stopmeshes()
     meshes = false
 end
 
---// gui
 local gui = Instance.new("ScreenGui")
 gui.Parent = game.CoreGui
 
@@ -140,7 +140,6 @@ local function hide()
     frame.Visible = false
 end
 
---// message loop
 local loopmsg = false
 
 local function startmsg()
@@ -159,7 +158,6 @@ local function startmsg()
     end)
 end
 
---// normal
 local function normal()
     play()
     while true do
@@ -203,8 +201,8 @@ local function normal()
     end
 end
 
---// scare
-local function scare()
+--10% chance only (1 in 10?)
+local function scarey()
     if math.random(1,10) == 1 then
         local gui2 = Instance.new("ScreenGui", game.CoreGui)
         local img = Instance.new("ImageLabel", gui2)
@@ -222,7 +220,6 @@ local function scare()
     end
 end
 
---// fog
 local function fog()
     play()
     while true do
@@ -273,8 +270,7 @@ local function fog()
                     end
                 end)
             end
-        end
-
+        eend
         local gui2 = Instance.new("ScreenGui", game.CoreGui)
         local img = Instance.new("ImageLabel", gui2)
         img.Size = UDim2.new(1,0,1,0)
@@ -288,12 +284,11 @@ local function fog()
             end
         end)
 
-        scare()
+        scarey()
         task.wait(20)
     end
 end
 
---// buttons
 b1.MouseButton1Click:Connect(function()
     hide()
     normal()
