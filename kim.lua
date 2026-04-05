@@ -1,5 +1,6 @@
 --made in 2019, thx jude :)
 --BAD BAD BAD
+--nother mention that this script is used when the game has like potential backdoor, idk if there incident
 --i found this on jude bakup srvr so just its not med by me
 --the gui button is not med by me also i only did some change :)
 
